@@ -642,7 +642,8 @@ button:hover{
 
  .hero{ max-width:2000px;
        max-height:1000px;
-       position: fixed;
+        background-size: cover;
+                    background-position: center;
        
   }
   .logo{ padding-buttom: 40%;
