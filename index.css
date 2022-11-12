@@ -658,22 +658,22 @@ h3{
    font-size: 20px;
 }
 .newslatter form{
-  width: 280px;
+  width: 320px;
      max-width: 100%;
         position: relative;
 }
 
 .newslatter form input:first-child{
   display: inline-block;
-     width: 140px;
-       padding: 10px 100px 10px 11px;
+     width: 180px;
+       padding: 12px 130px 12px 13px;
          border: 2px solid rgb(0, 136, 0);
             outline: none;
                border-radius: 30px;
 }
 
 ..newslatter form input:last-child{
-                padding: 7px 30px ;
+                padding: 7px 25px ;
        
  }
 .btn{
@@ -778,7 +778,7 @@ button{
 
 
 .contact-me p{
-               font-size: 23px;
+               font-size: 20px;
 }
 
 .contact-me .button-two{
@@ -786,12 +786,18 @@ button{
 }
 
 .footer p:nth-child(1){ 
-                        font-size: 25px;
+                        font-size: 18px;
 }
 
+.footer p:nth-child(2){
+                         font-size:  14px;
+  
+}
+                       
 .social a{ 
-  margin: 22px 10px;
+             width: 40px;
+                 height: 40px;
+ 
 }
 
 
-}
