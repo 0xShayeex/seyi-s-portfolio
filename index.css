@@ -637,7 +637,7 @@ button:hover{
        max-height:1000px;
   }
   .logo{
-            padding-bottom:25%;
+            padding-bottom:20%;
 }
 
 span{
@@ -673,7 +673,7 @@ h3{
 }
 
 ..newslatter form input:last-child{
-                padding: 5px 15px ;
+                padding: 3px 10px ;
        
  }
 .btn{
