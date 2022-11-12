@@ -632,7 +632,10 @@ button:hover{
 
 
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:800px){
+ .hero{ max-width:2000px;
+       max-height:1000px;
+  }
   .logo{
             padding-bottom:30%;
 }
@@ -655,21 +658,24 @@ h3{
    font-size: 20px;
 }
 .newslatter form{
-  width: 380px;
+  width: 280px;
      max-width: 100%;
         position: relative;
 }
 
 .newslatter form input:first-child{
   display: inline-block;
-     width: 240px;
-       padding: 14px 130px 14px 15px;
+     width: 140px;
+       padding: 10px 100px 10px 11px;
          border: 2px solid rgb(0, 136, 0);
             outline: none;
                border-radius: 30px;
 }
 
-
+..newslatter form input:last-child{
+                padding: 7px 30px ;
+       
+ }
 .btn{
       padding: 10px 20px;
        margin-bottom: 60%;
