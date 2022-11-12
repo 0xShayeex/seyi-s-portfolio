@@ -642,9 +642,10 @@ button:hover{
 
  .hero{ max-width:2000px;
        max-height:1000px;
+       position: fixed;
        
   }
-  .logo{
+  .logo{ padding-buttom: 40%;
            
 }
 
