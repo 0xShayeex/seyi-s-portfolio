@@ -633,8 +633,16 @@ button:hover{
 
 
 @media only screen and (max-width:800px){
+ 
+ *{
+   margin: 0;
+   padding: 0;
+   
+}
+
  .hero{ max-width:2000px;
        max-height:1000px;
+       
   }
   .logo{
             padding-bottom:20%;
@@ -672,7 +680,7 @@ h3{
                border-radius: 30px;
 }
 
-..newslatter form input:last-child{
+.newslatter form input:last-child{
                 padding: 3px 10px ;
        
  }
