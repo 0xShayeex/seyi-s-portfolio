@@ -634,7 +634,7 @@ button:hover{
 }
 
 
-/*
+
 @media only screen and (max-width:800px){
  
  *{
@@ -643,13 +643,13 @@ button:hover{
    
 }
 
- .hero{ max-width: 100%;
+.hero{ max-width: 100%;
+    padding-right:100px;
   
    
 }
        
-  }
-  .logo{ padding-buttom: 40%;
+.logo{ padding-buttom: 40%;
            
 }
 
@@ -659,14 +659,17 @@ h4{
        padding-top: 40px;
 }
 
+   
 h1{
      font-size: 30px;
 }
 
+   
 h3{
      margin-bottom: 50px;
    font-size: 20px;
 }
+   
 .newslatter form{
   width: 320px;
      max-width: 100%;
@@ -686,12 +689,13 @@ h3{
                 padding: 5px 15px ;
        
  }
+   
+   
 .btn{
       padding: 10px 20px;
        margin-bottom: 60%;
        margin-left: 20px;
-      
-      
+         
 }
 
 .btn:hover{ 
@@ -741,6 +745,8 @@ button{
                  transition: .4s;
                  margin: 10px;
 }
+   
+   
 .title h2{
   color: white;
     font-size: 40px;
@@ -759,6 +765,7 @@ button{
        
         
 }
+   
 .card{
   height: 320px;
     width: 250px;
