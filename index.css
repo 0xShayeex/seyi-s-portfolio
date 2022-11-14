@@ -641,7 +641,7 @@ button:hover{
 }
 
  .hero{ max-width: 100%;
-  padding-right:100px;
+  padding-right:80px;
    
 }
        
@@ -705,10 +705,6 @@ h3{
 
 } 
 
-.about{
-  padding-buttom: 100px;
-
-}
 .about img{
   height: 600px;
     width: 250px;
