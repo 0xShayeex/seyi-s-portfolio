@@ -1,26 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-   
-    <title>About Me</title>
-    <link href="index.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/bd22bf4df7.js" crossorigin="anonymous"></script>
-</head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Seyi's Portfolio</title>
+        <link href="index.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/bd22bf4df7.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>    
+        <script>
+          $(document).ready(function(){
+            $('#icon').click(function(){
+             $('ul').toggleClass('show')
+
+            });
+          });
+        </script>  
+      </head> 
+
 <body>
-    <div class="hero-2">
-    
-        <nav>
-          <h2 class="logo">Port<span>folio</span></h2>
-         <ul>
-             <li><a href="index.html">Home</a></li>
-               <li><a href="About Me.html">About  Me</a></li>
-                <li><a href="Services.html">Services</a></li>
-                <li><a href="Resume.html" target="_blank">Resume</a></li>
+     <div class="hero-2">
+     
+           <nav>
+             <h2 class="logo">Port<span>folio</span></h2>
+            
+
+             <ul>
+              <a href="About Me.html"><i class="fa-solid fa-x"></i></a> 
+                <li><a href="index.html">Home</a></li>
+                  <li><a href="About Me.html">About  Me</a></li>
+                   <li><a href="Services.html">Services</a></li>
+                   <li><a href="Resume.html" target="_blank">Resume</a></li>
+                  <li><a href="https://www.youtube.com/c/ElijahMaktub" target="_blank" class="btn">Subscribe</a></li>
+             </ul>
+             <label id="icon">
+              <i class="fas fa-bars"></i>
              
-          </ul>
-          <a href="https://www.youtube.com/c/ElijahMaktub" target="_blank" class="btn">Subscribe</a>
-       </nav>
-    </div>
+             </label>
+          </nav>
+        
     <section class="about">
     <div class="main">
        <img src="seyi 2.jpg">
