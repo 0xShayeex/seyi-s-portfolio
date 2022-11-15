@@ -41,7 +41,8 @@ span{
 nav ul li{
              list-style-type: none;
                display: inline-block;
-                 padding: 10px 25px;
+                 padding: 10px 2
+                 5px;
 }
 
 nav ul li a{
@@ -303,8 +304,7 @@ font-size: 25px;
 }
 
 @media (max-width: 1048px){
-   .hero-2{
-        position: relative;
+ 
    }
    .about-text h2{
     color: green;
@@ -314,7 +314,13 @@ font-size: 25px;
 
 
    }
-
+   .about{
+           width: 100%;
+           padding-right: 100px;
+             background-color: #191919;
+    
+  }
+     
 }
 /* SERVICES */
 .service{
@@ -384,6 +390,26 @@ cursor: pointer;
 }
 
 
+@media (max-width: 1048px){
+
+  .hero-2{
+    height: 130px;
+      width: 100%;
+        background-color: #101010;
+             background-size: cover;
+                 background-position: center;
+                 padding-right: 100px;
+             
+  }
+ .service{
+  background: #191919;
+  width: 100%;
+   padding-right: 100px;
+}
+
+}
+
+   
 /* RESUME STYLES */
 /* Background color grey */
 .main-2{
@@ -567,6 +593,16 @@ hr{
 }
 
 
+@media (max-width: 1048px){
+ .main-2{
+     
+  width: 100%;
+
+    background-color: #191919;
+    padding-right:100px;
+}
+
+   }
 
 /* Background color */
 .main{
