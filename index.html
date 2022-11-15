@@ -5,22 +5,40 @@
         <title> Seyi's Portfolio</title>
         <link href="index.css" rel="stylesheet">
         <script src="https://kit.fontawesome.com/bd22bf4df7.js" crossorigin="anonymous"></script>
- </head>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>    
+        <script>
+          $(document).ready(function(){
+            $('#icon').click(function(){
+             $('ul').toggleClass('show')
+
+            });
+          });
+        </script>  
+      </head> 
 
 <body>
      <div class="hero">
      
            <nav>
              <h2 class="logo">Port<span>folio</span></h2>
-            <ul>
+            
+
+             <ul>
+             <a href="index.html"><i class="fa-solid fa-x"></i></a> 
                 <li><a href="index.html">Home</a></li>
                   <li><a href="About Me.html">About  Me</a></li>
                    <li><a href="Services.html">Services</a></li>
                    <li><a href="Resume.html" target="_blank">Resume</a></li>
-                 
+                  <li><a href="https://www.youtube.com/c/ElijahMaktub" target="_blank" class="btn">Subscribe</a></li>
              </ul>
-             <a href="https://www.youtube.com/c/ElijahMaktub" target="_blank" class="btn">Subscribe</a>
+             <label id="icon">
+              <i class="fas fa-bars"></i>
+             
+             </label>
           </nav>
+          <section>
+
+          </section>
           <div class="content">
               <h4>Hello, my name is</h4>
                  <h1> Oluwaseyi <span>Ogunnowo</span></h1>
@@ -30,6 +48,7 @@
                         <input type="email" name="email" id="mail" placeholder="Enter Your email">
                         <input type="submit" name="submit" value="Lets Start">
                   </form>
+              
             </div>
           </div>
      </div>
