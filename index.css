@@ -478,7 +478,8 @@ button:hover{
 }
 
 .about-text{
-     margin-left: 30px;
+     width:auto;
+     padding-left:16px;
 }
 
 .main{
