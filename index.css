@@ -540,8 +540,8 @@ button:hover{
 .service{
   background: #191919;
   width: 100%;
-   padding: 100px;
-}
+  }
+  
 .title h2{
  color: white;
  font-size: 65px;
@@ -1093,7 +1093,6 @@ hr{
  .title h2{
    color: white;
      font-size: 40px;
-       width: 500px;
         margin: auto;
           text-align: center;
    
