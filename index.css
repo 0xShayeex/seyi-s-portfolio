@@ -460,7 +460,7 @@ button:hover{
         background-color: #101010;
              background-size: cover;
                  background-position: center;
-                 padding-right: 100px;
+     
              
   }
   
@@ -611,7 +611,7 @@ cursor: pointer;
    
       width: 100%;
         background-color:#191919;
-                 padding-right: 100px;
+              
              
   }
   .title h2{
@@ -1150,9 +1150,6 @@ hr{
                           padding: 5px 20px;
  }
  
- .footer{
-          padding-right:100px;
- }
  
  .footer p:nth-child(1){ 
                          font-size: 18px;
