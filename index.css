@@ -1105,7 +1105,6 @@ hr{
      justify-content: center;
         align-items: center;
            min-height: 300px;
-         margin: 50px;
           padding: 10px;
         
          
@@ -1113,7 +1112,7 @@ hr{
     
  .card{
    height: 320px;
-     width: 250px;
+     width: auto;
        padding: 20px 35px;
          background:#101010;
            border-radius: 20px;
