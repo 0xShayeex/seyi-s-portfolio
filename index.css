@@ -846,6 +846,13 @@ hr{
          margin-left: 25px;
 }
 
+/* Programming languages Styles */
+.program {
+    display: flex;
+    width: 280px;
+    padding: 20px 32%;
+}
+
 @media (max-width: 1048px){
   .seyi{
     font-size: 25px;
