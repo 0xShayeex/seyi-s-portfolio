@@ -164,8 +164,7 @@ h4{
      }
       
      .hero{ 
-          padding-right: 100px;
-      width: 100%;
+      width: auto;
       background-color: #101010;
              background-size: cover;
                  background-position: center;
@@ -187,7 +186,7 @@ h4{
         }
       nav ul{
              position: fixed;
-                 width: 80%;
+                 width: 90%;
                  
                  background:rgba(3, 4, 3, 0.998);
              top: 3px;
@@ -868,10 +867,42 @@ hr{
   .text{
     font-size: 15px;
     letter-spacing: 3px;
-    margin-left: 25px;
+   padding:0px 10px;
     color: white;
   
 }
+.date{
+         padding-right: 10px;
+}
+.work{
+       padding: 4px 20px;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+}
+.title-1{
+    padding: 4px 16px;
+ 
+}
+.title{ 
+           padding: 4px 16px;
+}
+.title-2{ 
+      font-size: 20px;
+    padding: 8px 20px;
+}
+}
+
+.title-3{
+            font-size: 20px;
+            padding:0px 40px;
+       
+ }
+   
+ .skills{
+        font-size: 20px;
+    padding: 4px 20px;
+ }
 .box-2{
   min-height: 400px;
   display: flex;
@@ -923,12 +954,13 @@ hr{
       line-height: 24px;
       margin-bottom: 15px;
     }
-    .program{
-              display: flex;
-              width: 250px;
-             margin-left: 100px;
-    }
-}
+    
+.program {
+    display: flex;
+    width: 150px;
+    padding: 12px 32%;
+    
+ }
 
 
 
@@ -1132,10 +1164,7 @@ hr{
      transition: .4s;
  }
  
- .contact-me{ 
-              padding-right:100px;
-  }
-   
+
  .contact-me p{
                 font-size: 20px;
  }
