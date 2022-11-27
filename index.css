@@ -903,6 +903,13 @@ hr{
         font-size: 20px;
     padding: 4px 20px;
  }
+
+.image{
+         width: 90%;
+         height: 145px;
+         paddinng:10px;
+          background-repeat: none;
+}
 .box-2{
   min-height: 400px;
   display: flex;
